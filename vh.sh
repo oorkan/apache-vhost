@@ -5,6 +5,18 @@
 servername=
 path=
 
+show_help()
+{
+    printf -- '\n Usage: ./vh.sh [OPTION] [VALUE] ...\n'
+    printf -- ' Generates Apache VirtualHost configuration file.\n\n'
+    printf -- ' -s, --servername    Provide a name for the server | ex: mysite.my\n'
+    printf -- ' -p, --path          Provide a path/directory for the server | ex: /home/johndoe/dir/\n'
+    printf -- ' -h, --help          Show help\n\n'
+    printf -- ' Argument mixing (-abc) is not allowed!\n\n'
+
+    return 1
+}
+
 while :; do
     case $1 in
         -h|-\?|--help)   # Call a "show_help" function to display a synopsis, then exit.
