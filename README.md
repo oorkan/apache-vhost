@@ -30,9 +30,9 @@ Apache-vhost automates the creation of Apache VirtualHost configuration files. I
 ## Command arguments
 
 <pre>
-	-s, --servername    ⟶    Provide a name for the server. Example: mysite.my
-	-p, --path          ⟶    Provide a path/directory for the server. Example: /home/johndoe/dir/
-	-h, --help          ⟶    Show help
+-s, --servername    ⟶    Provide a name for the server. Example: mysite.my
+-p, --path          ⟶    Provide a path/directory for the server. Example: /home/johndoe/dir/
+-h, --help          ⟶    Show help
 </pre>
 
 **Important!** Argument mixing (-abc) is not allowed.
