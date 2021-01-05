@@ -39,4 +39,5 @@ Apache-vhost automates the creation of Apache VirtualHost configuration files. I
 
 ## Compatibility
 
-The script is designed for Linux. It's compatible only with Debian and Debian-based operating systems. [https://distrowatch.com/search.php?basedon=Debian](https://distrowatch.com/search.php?basedon=Debian) 
+The script is designed for Linux. It's compatible only with Debian and Debian-based operating systems. 
+[https://distrowatch.com/search.php?basedon=Debian](https://distrowatch.com/search.php?basedon=Debian) 
