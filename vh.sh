@@ -79,7 +79,7 @@ if [ -n "$servername" ]; then
 EOT
 	sudo cp /etc/hosts /etc/hosts.backup
 	sudo sed -i "1s/^/127.0.0.1 $servername\n/" /etc/hosts
-	sudo cp "$servername.conf" "/etc/apache2/sites-available/$servername.conf"
+	sudo mv "$servername.conf" "/etc/apache2/sites-available/$servername.conf"
 	sudo mkdir "$path"
 	sudo chown $USER:$USER "$path"
 	sudo a2ensite "$servername.conf"
